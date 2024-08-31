@@ -15,6 +15,10 @@ body {
   width: 400px;
   margin: auto;
   /* Add code here */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
 }
 
 .name {
@@ -30,6 +34,9 @@ body {
 
 .tags {
   /* Add code here */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px
 }
 
 .tags div {
@@ -47,6 +54,9 @@ body {
 .button-group {
   width: 100%;
   /* Add code here */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 .contact {
   background-color: #1d1d1e;
